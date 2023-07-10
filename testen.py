@@ -7,15 +7,12 @@ import matplotlib.pyplot as plt
 file1_path = 'data/NewYorkCars/New_York_cars_part1.csv'
 file2_path = 'data/NewYorkCars/New_York_cars_part2.csv'
 
-
 data = merge_dataframes(file1_path, file2_path)
-
+print(data.columns)
 # Relevanten Plots erstellen
 
 
-# Machine Learning: K-Means-Clustering und Bewertung
-# Machine Learning: K-Means-Clustering und Bewertung
-# Machine Learning: K-Means-Clustering und Bewertung
+
 def perform_clustering(data):
     # Ausgewählte Merkmale für das Clustering
     features = ['money', 'Mileage']
